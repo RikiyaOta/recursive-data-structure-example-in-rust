@@ -2,7 +2,6 @@
  * Box<> を使った再帰的データ構造。
  * こちらはコンパイルすることができる。
  */
-#[derive(Debug)]
 pub enum BinaryTree<T> {
     Node {
         value: T,
@@ -39,4 +38,5 @@ pub enum InvalidBinaryTree2<T> {
     Leaf {
         value: T,
     },
+    Empty
 }
